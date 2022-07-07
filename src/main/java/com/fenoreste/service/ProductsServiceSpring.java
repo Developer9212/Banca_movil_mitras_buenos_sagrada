@@ -97,8 +97,9 @@ public class ProductsServiceSpring {
 			int v1 = 0;
 			int v2 = 0;
 			int v3 = 0;
+			String sonso_nahum = "";
 			
-			//Validacion SAGRADA nahum
+			//Validacion SAGRADA wilmer
 			if (origenesService.findMatrizOrigen().getIdorigen() == 20700) {
 				productos_consulta = tablasService.findIdtablaAndIdelemento("bankingly_banca_movil", "productos_solo_consulta");
 				String prod_cons = productos_consulta.getDato2();
