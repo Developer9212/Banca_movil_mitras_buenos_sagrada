@@ -93,10 +93,7 @@ public class ProductsServiceSpring {
 			Tablas productos_consulta = null;
 			Tablas productos_dep_ret = null;
 			
-			String v_Sagrada = "";
-			int v1 = 0;
-			
-			//Validacion SAGRADA cambio nahum
+			//Validacion SAGRADA wilmergfdgdfgdfg
 			if (origenesService.findMatrizOrigen().getIdorigen() == 20700) {
 				productos_consulta = tablasService.findIdtablaAndIdelemento("bankingly_banca_movil", "productos_solo_consulta");
 				String prod_cons = productos_consulta.getDato2();
