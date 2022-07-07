@@ -92,8 +92,13 @@ public class ProductsServiceSpring {
 			Tablas producto_retiro = null;
 			Tablas productos_consulta = null;
 			Tablas productos_dep_ret = null;
-			String hol2 = "hola mundo";
-			//Validacion SAGRADA wilmergfdgdfgdfg
+			
+			String Var_Sagrada = "";
+			int v1 = 0;
+			int v2 = 0;
+			int v3 = 0;
+			
+			//Validacion SAGRADA nahum
 			if (origenesService.findMatrizOrigen().getIdorigen() == 20700) {
 				productos_consulta = tablasService.findIdtablaAndIdelemento("bankingly_banca_movil", "productos_solo_consulta");
 				String prod_cons = productos_consulta.getDato2();
